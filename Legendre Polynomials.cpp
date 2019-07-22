@@ -16,11 +16,11 @@ double findsol(double x,int n)
 }
 int main()
 {
-    int m,n;
+    int m,n,i;
     double x,sol;
     vector<double> solutions;
     cin>>m;
-    for(int i=0;i<m;i++)
+    for(i=0;i<m;i++)
     {
         cin>>x>>n;
         sol=findsol(x,n);
